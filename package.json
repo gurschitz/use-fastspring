@@ -1,6 +1,6 @@
 {
   "name": "use-fastspring",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "React hook for loading and initializing the fastspring store builder library.",
   "main": "dist/use-fastspring.js",
   "umd:main": "dist/use-fastspring.umd.js",
