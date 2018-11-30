@@ -1,0 +1,28 @@
+{
+  "name": "use-fastspring",
+  "version": "0.0.1",
+  "description": "React hook for loading and initializing the fastspring store builder library.",
+  "main": "dist/use-fastspring.js",
+  "umd:main": "dist/use-fastspring.umd.js",
+  "module": "dist/use-fastspring.m.js",
+  "author": "Gerald Urschitz",
+  "license": "MIT",
+  "private": false,
+  "typings": "index.d.ts",
+  "devDependencies": {
+    "microbundle": "^0.7.0"
+  },
+  "peerDependencies": {
+    "react": "^16.7.0-alpha.2"
+  },
+  "scripts": {
+    "build": "microbundle -o dist/ --name use-substate --compress false --sourcemap false",
+    "dev": "microbundle watch",
+    "prepublishOnly": "yarn build"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ]
+}
