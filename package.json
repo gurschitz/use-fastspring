@@ -13,7 +13,7 @@
     "microbundle": "^0.7.0"
   },
   "peerDependencies": {
-    "react": "^16.7.0-alpha.2"
+    "react": "^16.7.0-alpha.0"
   },
   "scripts": {
     "build": "microbundle -o dist/ --name use-substate --compress false --sourcemap false",
