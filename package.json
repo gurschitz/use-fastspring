@@ -8,7 +8,7 @@
   "author": "Gerald Urschitz",
   "license": "MIT",
   "private": false,
-  "typings": "index.d.ts",
+  "repository": "https://github.com/gurschitz/use-fastspring",
   "devDependencies": {
     "microbundle": "^0.7.0"
   },
@@ -16,7 +16,7 @@
     "react": "^16.7.0-alpha.0"
   },
   "scripts": {
-    "build": "microbundle -o dist/ --name use-substate --compress false --sourcemap false",
+    "build": "microbundle -o dist/ --name use-fastspring --compress false --sourcemap false",
     "dev": "microbundle watch",
     "prepublishOnly": "yarn build"
   },
